@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>My first web</title>
+	<style> 
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>	
+<body>
+	<!--Fase de las tablas-->
+	<table style="width: 500px;">
+		<thead>
+			<tr>
+				<th>Precio</th>
+				<th>Producto</th>
+			</tr>	
+		</thead>
+		<tbody>
+			<tr>
+				<td>Manzana</td>
+				<td>100$</td>
+			</tr>
+			<tr>
+				<td>Sandia</td>
+				<td>60$</td>
+			</tr>
+			<tr>
+				<td>Meloncito grande</td>
+				<td>90$</td>
+			</tr>	
+		</tbody>
+		<tfoot>
+			<td></td>
+			<td>Total: 250$</td>
+		</tfoot>
+	</table>
+
+
+
+
+	<!-- ul es lista no ordenada-->
+	<ul>
+		<li>Elemento 1</li>
+		<li>Elemento 2</li>
+		<li>Elemento 3</li>
+		<li>Elemento 4</li>
+	</ul>
+	<!-- ol es lista ordenada-->
+	<ol>
+		<li value="10">Elemento 1</li>
+		<li>Elemento 2</li>
+		<li>Elemento 3</li>
+		<li>Elemento 4</li>
+		<li>
+			<ol>
+				<li style="list-style-type: lower-roman;">Sub elemento 1</li>
+				<li style="list-style-type: lower-alpha;">Sub elemento 2</li>
+				<li style="list-style-type: lower-alpha;">Sub elemento 3</li>
+			</ol>
+		</li>
+	</ul>
+
+
+	<br>
+	<form action="/formulario" method="POST">
+		<label for="nombre">Nombre</label>
+		<input type="text" id="nombre" name = "nombre" placeholder="nombre"></input>
+		<br>
+		<label for="apellido">Apellido</label>
+		<input name = "apellido" type="text"id="apellido"placeholder="Apellido"></input>
+		<br>
+		<label for="comentario">Comentario</label><br>
+		<textarea cols ="40" rows="10" id = "comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
+		<br>
+		<button type="button">Tipo button</button>
+		<button type="reset">Tipo reset</button>
+		<button type="submit">Tipo submit</button>
+	</form>
+	<h1>Mi primer heading</h1>
+	<h2>Mi primera etiqueta h2 (Segundo heading)</h2>
+	<h3>Mi tercer heading (h3)</h3>
+	<h4>Mi cuarto heading (h4)</h4>
+	<h5>Mi quinto heading (h5)</h5>
+	<h6>Mi sexto heading (h6)</h6>
+	<p>Mi primer parrafo
+		lalala</p>
+	<p>Segundo parrafo, hago el parra <span style="color: red;">mucho mas largo</span> para mostrar el ejemplor mucho mejor<br>y asi mejorar mis habilidades.</p>
+	<hr>
+	<h2>Sub texto mas</h2>
+	<!-- hola, esto es un comentario
+		holi-->
+	<a target= "_blank" href="https://www.google.com">Ir a google</a>
+	<img src = "https://img.rtve.es/imagenes/julian-clemente-spiderman-mejor-personaje-ficcion-historia/1442912664626.jpg" width="400" />
+</body>
+</html>
